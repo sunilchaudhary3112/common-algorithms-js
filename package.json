@@ -1,5 +1,5 @@
 {
-  "name": "common-algorithms",
+  "name": "common-algorithms-js",
   "version": "1.0.0",
   "description": "Commonly used algorithms implemented in JavaScript.",
   "main": "index.js",
