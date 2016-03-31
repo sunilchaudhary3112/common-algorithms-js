@@ -1,11 +1,10 @@
 # Common Algorithms [![Build Status](https://travis-ci.org/JHM90/common-algorithms.svg?branch=master)](https://travis-ci.org/JHM90/common-algorithms)
 
-Commonly used algorithms implemented in JavaScript with Mocha/Chai testing.
-
-###Algorithms Included
+Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.org/)/[Chai](http://chaijs.com/) testing.
 
 * [Selection Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/selectionSort.js)
 * [Bubble Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/bubbleSort.js)
+* [Linear Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/linearSearch.js)
 
 ###Testing
 

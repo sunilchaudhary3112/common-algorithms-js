@@ -1,5 +1,5 @@
 /*
-  A JavaScript Module which performs a selection sort on a given array of numbers, ordering the elements from lowest to highest.
+  A JavaScript module which performs a selection sort on a given array of numbers, ordering the elements from lowest to highest.
 */
 module.exports = exports = function selectionSort(input) {
   if (!Array.isArray(input)) return 'Selection Sort: The input must be an array.';

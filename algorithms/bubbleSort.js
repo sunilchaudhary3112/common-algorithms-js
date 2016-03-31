@@ -1,3 +1,6 @@
+/*
+  A JavaScript module which performs a bubble sort on a given array of numbers, ordering the elements from lowest to highest.
+*/
 module.exports = exports = function(input) {
   if (!Array.isArray(input)) return 'Bubble Sort: The input must be an array.';
   for (var i = 0; i < input.length; i++) if (typeof input[i] !== 'number') return 'Bubble Sort: The input must be an array consisting solely of numbers.';
