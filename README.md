@@ -6,7 +6,7 @@ Commonly used algorithms implemented in JavaScript with Mocha/Chai testing.
 
 -Selection Sort
 
-###testing
+###Testing
 
 To test the algorithms first install the node dependencies via npm using this command in your terminal while navigated within this project's root directory:
 
