@@ -11,12 +11,20 @@ Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.
 
 ###Testing
 
-To test the algorithms first install the node dependencies via npm using this command in your terminal while navigated within this project's root directory:
+To run the tests yourself you'll need to download the project and install its node module dependencies via [npm](https://www.npmjs.com/).  So, if you haven't already installed [Node.js](https://nodejs.org/) and npm for use on your command line hop over to their website and follow the download and installation instructions.  Once you have Node.js and npm installed, clone the project onto your computer using the following command:
+
+`git clone https://github.com/JHM90/common-algorithms-js.git`
+
+Once it's downloaded use the following command to navigate to the project's root directory:
+
+`cd common-algorithms-js`
+
+Next you'll install the project's node module dependencies from npm, enter the command:
 
 `npm install`
 
-Once the necessary dependencies have been installed enter the command:
+That'll install everything you're going to need to run the tests.  Now enter the following command to run the tests:
 
 `npm test`
 
-to run the tests.  This repository uses [Travis-CI](https://travis-ci.org/JHM90/common-algorithms) for deployment testing on Node.js versions 5.1x and 4.2x.
+This repository uses [Travis-CI](https://travis-ci.org/JHM90/common-algorithms) for deployment testing on Node.js versions 5.1x and 4.2x.
