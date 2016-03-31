@@ -1,0 +1,28 @@
+{
+  "name": "common-algorithms",
+  "version": "1.0.0",
+  "description": "Commonly used algorithms implemented in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JHM90/common-algorithms.git"
+  },
+  "keywords": [
+    "common algorithms",
+    "algorithms",
+    "javascript algorithms"
+  ],
+  "author": "James Mason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JHM90/common-algorithms/issues"
+  },
+  "homepage": "https://github.com/JHM90/common-algorithms#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
