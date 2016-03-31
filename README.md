@@ -2,9 +2,10 @@
 
 Commonly used algorithms implemented in JavaScript with Mocha/Chai testing.
 
-###Algorithms
+###Algorithms Included
 
--Selection Sort
+* [Selection Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/selectionSort.js)
+* [Bubble Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/bubbleSort.js)
 
 ###Testing
 
@@ -16,4 +17,4 @@ Once the necessary dependencies have been installed enter the command:
 
 `npm test`
 
-to run the tests.
+to run the tests.  This repository uses [Travis-CI](https://travis-ci.org/JHM90/common-algorithms) for deployment testing, these tests are performed using Node versions 5.1x and 4.2x.
