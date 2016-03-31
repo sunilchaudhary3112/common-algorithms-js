@@ -5,6 +5,7 @@ Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.
 * [Selection Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/selectionSort.js)
 * [Bubble Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/bubbleSort.js)
 * [Linear Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/linearSearch.js)
+* [Brute Force String Match](https://github.com/JHM90/common-algorithms/blob/master/algorithms/bruteForceStringMatch.js)
 
 ###Testing
 
@@ -16,4 +17,4 @@ Once the necessary dependencies have been installed enter the command:
 
 `npm test`
 
-to run the tests.  This repository uses [Travis-CI](https://travis-ci.org/JHM90/common-algorithms) for deployment testing, these tests are performed using Node versions 5.1x and 4.2x.
+to run the tests.  This repository uses [Travis-CI](https://travis-ci.org/JHM90/common-algorithms) for deployment testing, these tests are performed on Node.js versions 5.1x and 4.2x.
