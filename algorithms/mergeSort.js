@@ -16,10 +16,7 @@ function partition(input, low, high) {
   return input;
 }
 function merge(input, low, mid, high) {
-  var index = low;
-  var lowIndex = low;
-  var midIndex = mid + 1;
-  var holder = [];
+  var index = low, lowIndex = low, midIndex = mid + 1, holder = [];
   while (lowIndex <= mid && midIndex <= high) {
     if (input[lowIndex] <= input[midIndex]) {
       holder[index] = input[lowIndex];
