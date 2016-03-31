@@ -1,4 +1,4 @@
-# Common Algorithms
+# Common Algorithms [![Build Status](https://travis-ci.org/JHM90/common-algorithms.svg?branch=master)](https://travis-ci.org/JHM90/common-algorithms)
 
 Commonly used algorithms implemented in JavaScript with Mocha/Chai testing.
 
