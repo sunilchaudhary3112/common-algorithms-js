@@ -11,7 +11,7 @@ Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.
 
 ###Testing
 
-To run the tests yourself you'll need to download the project and install its node module dependencies via [npm](https://www.npmjs.com/).  So, if you haven't already installed [Node.js](https://nodejs.org/) and npm for use on your command line hop over to their website and follow the download and installation instructions.  Once you have Node.js and npm installed, clone the project onto your computer using the following command:
+To run the tests yourself you'll need to download the project and install its node module dependencies via [npm](https://www.npmjs.com/).  So, if you haven't already installed [Node.js](https://nodejs.org/) and npm for use on your command line hop over to the Node.js website and follow their download and installation instructions.  Once you have Node.js and npm installed, clone the project onto your computer using the following command:
 
 `git clone https://github.com/JHM90/common-algorithms-js.git`
 
