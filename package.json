@@ -15,7 +15,7 @@
     "algorithms",
     "javascript algorithms"
   ],
-  "author": "James Mason",
+  "author": "James Mason <jm@netarts.io>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JHM90/common-algorithms/issues"

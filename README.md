@@ -15,15 +15,15 @@ To run the tests yourself you'll need to download the project and install its no
 
 `git clone https://github.com/JHM90/common-algorithms-js.git`
 
-(Just in case you haven't already installed [Git](https://git-scm.com/), do so by following the  installation instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), then enter the previous command again once it's installed.)  Once you've downloaded the project use the following command to navigate to the project's root directory:
+(Just in case you haven't already installed [Git](https://git-scm.com/), do so by following the installation instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), then enter the previous command again once it's installed.)  Once you've downloaded the project use the following command to navigate to the project's root directory:
 
 `cd common-algorithms-js`
 
-Next you'll install the project's node module dependencies from npm.  Do so by entering this command:
+Next, install the project's node module dependencies from npm.  Do so by entering this command:
 
 `npm install`
 
-Once everything has been installed you'll be ready to run the tests.  Enter the following command to run them:
+Once all the dependencies are installed you'll be ready to run the tests.  Enter the following command to run them:
 
 `npm test`
 
