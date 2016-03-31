@@ -7,6 +7,7 @@ Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.
 * [Linear Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/linearSearch.js)
 * [Brute Force String Match](https://github.com/JHM90/common-algorithms/blob/master/algorithms/bruteForceStringMatch.js)
 * [Merge Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/mergeSort.js)
+* [Quick Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/quickSort.js)
 
 ###Testing
 
