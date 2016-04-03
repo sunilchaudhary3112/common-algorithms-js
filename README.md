@@ -11,6 +11,7 @@ Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.
 * [Binary Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/binarySearch.js)
 * [Insertion Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/insertionSort.js)
 * [Knuth Shuffle](https://github.com/JHM90/common-algorithms/blob/master/algorithms/knuthShuffle.js)
+* [Depth First Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/depthFirstSearch.js)
 
 ###Testing
 
