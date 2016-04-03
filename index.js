@@ -12,4 +12,5 @@ exports.binarySearch = require(path.join('algorithms', 'binarySearch'));
 exports.insertionSort = require(path.join('algorithms', 'insertionSort'));
 exports.knuthShuffle = require(path.join('algorithms', 'knuthShuffle'));
 exports.depthFirstSearch = require(path.join('algorithms', 'depthFirstSearch'));
+exports.breadthFirstSearch = require(path.join('algorithms', 'breadthFirstSearch'));
 module.exports = exports;
