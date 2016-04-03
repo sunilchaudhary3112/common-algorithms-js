@@ -8,4 +8,5 @@ exports.linearSearch = require(path.join('algorithms', 'linearSearch'));
 exports.bruteForceStringMatch = require(path.join('algorithms', 'bruteForceStringMatch'));
 exports.mergeSort = require(path.join('algorithms', 'mergeSort'));
 exports.quickSort = require(path.join('algorithms', 'quickSort'));
+exports.binarySearch = require(path.join('algorithms', 'binarySearch'));
 module.exports = exports;
