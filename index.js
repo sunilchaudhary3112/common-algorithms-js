@@ -10,4 +10,5 @@ exports.mergeSort = require(path.join('algorithms', 'mergeSort'));
 exports.quickSort = require(path.join('algorithms', 'quickSort'));
 exports.binarySearch = require(path.join('algorithms', 'binarySearch'));
 exports.insertionSort = require(path.join('algorithms', 'insertionSort'));
+exports.knuthShuffle = require(path.join('algorithms', 'knuthShuffle'));
 module.exports = exports;
