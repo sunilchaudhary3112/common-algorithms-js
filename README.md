@@ -1,20 +1,26 @@
 # Common Algorithms in JavaScript [![Build Status](https://travis-ci.org/JHM90/common-algorithms-js.svg?branch=master)](https://travis-ci.org/JHM90/common-algorithms-js)
 
-Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.org/)/[Chai](http://chaijs.com/) testing.
+Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.org/)/[Chai](http://chaijs.com/) testing.  Some were translated, others were adapted from existing JavaScript implementations.  In the latter cases, the source implementation is cited in-line.
 
+###Array
 * [Selection Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/selectionSort.js)
 * [Bubble Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/bubbleSort.js)
 * [Linear Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/linearSearch.js)
-* [Brute Force String Match](https://github.com/JHM90/common-algorithms/blob/master/algorithms/bruteForceStringMatch.js)
 * [Merge Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/mergeSort.js)
 * [Quick Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/quickSort.js)
 * [Binary Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/binarySearch.js)
 * [Insertion Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/insertionSort.js)
 * [Knuth Shuffle](https://github.com/JHM90/common-algorithms/blob/master/algorithms/knuthShuffle.js)
+
+###String
+* [Brute Force String Match](https://github.com/JHM90/common-algorithms/blob/master/algorithms/bruteForceStringMatch.js)
+* [Longest Common Substring](https://github.com/JHM90/common-algorithms/blob/master/algorithms/longestCommonSubstring.js)
+
+###Graph
 * [Depth First Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/depthFirstSearch.js)
 * [Breadth First Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/breadthFirstSearch.js)
 
-###Testing
+##Testing
 
 To run the tests yourself you'll need to download the project and install its node module dependencies via [npm](https://www.npmjs.com/).  So, if you haven't already installed [Node.js](https://nodejs.org/) and npm for use on your command line hop over to the Node.js website and follow their download and installation instructions.  Once you have Node.js and npm installed, clone the project onto your computer using the following command in your terminal/command prompt/console:
 
