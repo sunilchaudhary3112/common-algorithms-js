@@ -9,14 +9,12 @@ module.exports = exports = function(s1, s2) {
   for (var i = 0; i <= s1.length; i++) c.push([0]);
   for (var i = 0; i < s2.length; i++) c[0].push(0);
   for (var i = 0; i < s1.length; i++) {
-    for (var j = 0; j < s2.length; j++) {
-      c[i + 1][j + 1] = s1[i] === s2[j] ? c[i][j] + 1 : Math.max(c[i + 1][j], c[i][j + 1]);
-    }
+    for (var j = 0; j < s2.length; j++) c[i + 1][j + 1] = s1[i] === s2[j] ? c[i][j] + 1 : Math.max(c[i + 1][j], c[i][j + 1]);
   }
-  var sequence = (function bt(n1, n2) {
+  var sequence = (function backTrack(n1, n2) {
     if (n1 * n2 === 0) return '';
-    if (s1[n1 - 1] === s2[n2 - 1]) return bt(n1 - 1, n2 - 1) + s1[n1 - 1];
-    return c[n1][n2 - 1] > c[n1 - 1][n2] ? bt(n1, n2 - 1) : bt(n1 - 1, n2);
+    if (s1[n1 - 1] === s2[n2 - 1]) return backTrack(n1 - 1, n2 - 1) + s1[n1 - 1];
+    return c[n1][n2 - 1] > c[n1 - 1][n2] ? backTrack(n1, n2 - 1) : backTrack(n1 - 1, n2);
   })(s1.length, s2.length);
   if (sequence === '') sequence = -1;
   return sequence;
