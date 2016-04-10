@@ -18,7 +18,7 @@ describe('Longest Common Substring Algorithm: longestCommonSubstring(inputString
     expect(longestCommonSubstring(true, 'st')).to.eql('Longest Common Substring: The input arguments must be strings.');
   });
   it('Should return an error message if either input string is empty.', () => {
-    expect(longestCommonSubstring('test', '')).to.eql('Longest Common Substring: Error, neither input string may be empty.');
-    expect(longestCommonSubstring('', 'test')).to.eql('Longest Common Substring: Error, neither input string may be empty.');
+    expect(longestCommonSubstring('test', '')).to.eql('Longest Common Substring: Neither input string may be empty.');
+    expect(longestCommonSubstring('', 'test')).to.eql('Longest Common Substring: Neither input string may be empty.');
   });
 });

@@ -4,7 +4,7 @@
 */
 module.exports = exports = function(s1, s2) {
   if (typeof s1 !== 'string' || typeof s2 !== 'string') return 'Longest Common Substring: The input arguments must be strings.';
-  if (s1.length === 0 || s2.length === 0) return 'Longest Common Substring: Error, neither input string may be empty.';
+  if (s1.length === 0 || s2.length === 0) return 'Longest Common Substring: Neither input string may be empty.';
   var substring = -1, table = [], maxLength = 0, currentSubstringIndex = 0, previousSubstringIndex = 0;
   for (var i = 0; i < s1.length; i++) table[i] = (new Array(s2.length).fill(0));
   for (var i = 0; i < s1.length; i++) {
