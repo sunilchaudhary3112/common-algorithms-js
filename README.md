@@ -1,6 +1,6 @@
 # Common Algorithms in JavaScript [![Build Status](https://travis-ci.org/JHM90/common-algorithms-js.svg?branch=master)](https://travis-ci.org/JHM90/common-algorithms-js)
 
-Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.org/)/[Chai](http://chaijs.com/) testing.  If an implementation was derived from existing JavaScript, its source is cited in-line.
+Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.org/)/[Chai](http://chaijs.com/) testing.
 
 ###Array
 * [Selection Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/selectionSort.js)
