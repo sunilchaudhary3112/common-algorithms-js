@@ -1,5 +1,5 @@
 /*
-  A JavaScript module which resolves the longest common substring inside two input strings.  If there is  a common substring, the longest one is returned.  If there is no common substring, -1 is returned.  Adapted from an existing implementation.
+  A JavaScript module which resolves the longest common substring inside two input strings.  If there is  a common substring, the longest one is returned.  If there is no common substring, -1 is returned.  Adapted from an existing JavaScript implementation.
   Citation: "Algorithm Implementation/Strings/Longest Common Substring - Wikibooks, Open Books For An Open World". 2016. En.Wikibooks.Org. https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Longest_common_substring#JavaScript.
 */
 module.exports = exports = function(s1, s2) {
