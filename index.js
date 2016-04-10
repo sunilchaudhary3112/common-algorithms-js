@@ -15,4 +15,5 @@ exports.depthFirstSearch = require(path.join('algorithms', 'depthFirstSearch'));
 exports.breadthFirstSearch = require(path.join('algorithms', 'breadthFirstSearch'));
 exports.longestCommonSubstring = require(path.join('algorithms', 'longestCommonSubstring'));
 exports.longestCommonSubsequence = require(path.join('algorithms', 'longestCommonSubsequence'));
+exports.levenshteinDistance = require(path.join('algorithms', 'levenshteinDistance'));
 module.exports = exports;
