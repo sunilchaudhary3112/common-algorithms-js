@@ -17,6 +17,7 @@ Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.
 * [Longest Common Substring](https://github.com/JHM90/common-algorithms/blob/master/algorithms/longestCommonSubstring.js)
 * [Longest Common Subsequence](https://github.com/JHM90/common-algorithms/blob/master/algorithms/longestCommonSubsequence.js)
 * [Levenshtein Distance](https://github.com/JHM90/common-algorithms/blob/master/algorithms/levenshteinDistance.js)
+* [Knuth-Morris-Pratt Match](https://github.com/JHM90/common-algorithms/blob/master/algorithms/knuthMorrisPrattMatch.js)
 
 ###Graph
 * [Depth First Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/depthFirstSearch.js)
