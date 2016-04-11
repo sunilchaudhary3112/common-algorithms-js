@@ -1,7 +1,7 @@
 const path = require('path');
 const rabinKarpStringMatch = require(path.join(__dirname, '..', 'algorithms', 'rabinKarpStringMatch.js'));
 const expect = require('chai').expect;
-describe('Rabin-Karp String Match Algorithm: rabinKarpStringMatch(input, pattern, lasVegasCheck)', () => {
+describe('Rabin-Karp String Match Algorithm: rabinKarpStringMatch(input, pattern, check)', () => {
   it('Should return the proper index value of the pattern in the input string when it exists in the input string.', () => {
     expect(rabinKarpStringMatch('test', 'test', false)).to.eql(0);
     expect(rabinKarpStringMatch('test', 'est', false)).to.eql(1);
@@ -33,5 +33,13 @@ describe('Rabin-Karp String Match Algorithm: rabinKarpStringMatch(input, pattern
     expect(rabinKarpStringMatch('test', null, true)).to.eql('Rabin-Karp String Match: The pattern must be a string.');
     expect(rabinKarpStringMatch('test', {}, true)).to.eql('Rabin-Karp String Match: The pattern must be a string.');
     expect(rabinKarpStringMatch('test', true, true)).to.eql('Rabin-Karp String Match: The pattern must be a string.');
+  });
+  it('Should return an error message if the check is not a boolean.', () => {
+    expect(rabinKarpStringMatch('3', 'st', 3)).to.eql('Rabin-Karp String Match: The check must be a boolean.');
+    expect(rabinKarpStringMatch('[true]', 'st', [true])).to.eql('Rabin-Karp String Match: The check must be a boolean.');
+    expect(rabinKarpStringMatch('undefined', 'st')).to.eql('Rabin-Karp String Match: The check must be a boolean.');
+    expect(rabinKarpStringMatch('null', 'st', null)).to.eql('Rabin-Karp String Match: The check must be a boolean.');
+    expect(rabinKarpStringMatch('s', 'st', {})).to.eql('Rabin-Karp String Match: The check must be a boolean.');
+    expect(rabinKarpStringMatch('true', 'st', 'true')).to.eql('Rabin-Karp String Match: The check must be a boolean.');
   });
 });
