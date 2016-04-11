@@ -10,7 +10,7 @@ Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.
 * [Quick Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/quickSort.js)
 * [Binary Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/binarySearch.js)
 * [Insertion Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/insertionSort.js)
-* [Knuth Shuffle](https://github.com/JHM90/common-algorithms/blob/master/algorithms/knuthShuffle.js)
+* [Durstenfeld Shuffle](https://github.com/JHM90/common-algorithms/blob/master/algorithms/durstenfeldShuffle.js)
 
 ###String
 * [Brute Force String Match](https://github.com/JHM90/common-algorithms/blob/master/algorithms/bruteForceStringMatch.js)
