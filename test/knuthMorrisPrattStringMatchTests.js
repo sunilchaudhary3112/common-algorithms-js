@@ -12,19 +12,19 @@ describe('Knuth-Morris-Pratt String Match Algorithm: knuthMorrisPrattStringMatch
     expect(knuthMorrisPrattStringMatch('test', 'xyzsda')).to.eql(-1);
   });
   it('Should return an error message if the input is not a string.', () => {
-    expect(knuthMorrisPrattStringMatch(3, 'st')).to.eql('Knuth-Morris-Pratt Match: The input must be a string.');
-    expect(knuthMorrisPrattStringMatch(['test'], 'st')).to.eql('Knuth-Morris-Pratt Match: The input must be a string.');
-    expect(knuthMorrisPrattStringMatch(undefined, 'st')).to.eql('Knuth-Morris-Pratt Match: The input must be a string.');
-    expect(knuthMorrisPrattStringMatch(null, 'st')).to.eql('Knuth-Morris-Pratt Match: The input must be a string.');
-    expect(knuthMorrisPrattStringMatch({}, 'st')).to.eql('Knuth-Morris-Pratt Match: The input must be a string.');
-    expect(knuthMorrisPrattStringMatch(true, 'st')).to.eql('Knuth-Morris-Pratt Match: The input must be a string.');
+    expect(knuthMorrisPrattStringMatch(3, 'st')).to.eql('Knuth-Morris-Pratt String Match: The input must be a string.');
+    expect(knuthMorrisPrattStringMatch(['test'], 'st')).to.eql('Knuth-Morris-Pratt String Match: The input must be a string.');
+    expect(knuthMorrisPrattStringMatch(undefined, 'st')).to.eql('Knuth-Morris-Pratt String Match: The input must be a string.');
+    expect(knuthMorrisPrattStringMatch(null, 'st')).to.eql('Knuth-Morris-Pratt String Match: The input must be a string.');
+    expect(knuthMorrisPrattStringMatch({}, 'st')).to.eql('Knuth-Morris-Pratt String Match: The input must be a string.');
+    expect(knuthMorrisPrattStringMatch(true, 'st')).to.eql('Knuth-Morris-Pratt String Match: The input must be a string.');
   });
   it('Should return an error message if the pattern is not a string.', () => {
-    expect(knuthMorrisPrattStringMatch('test', 3)).to.eql('Knuth-Morris-Pratt Match: The pattern must be a string.');
-    expect(knuthMorrisPrattStringMatch('test', ['test'])).to.eql('Knuth-Morris-Pratt Match: The pattern must be a string.');
-    expect(knuthMorrisPrattStringMatch('test')).to.eql('Knuth-Morris-Pratt Match: The pattern must be a string.');
-    expect(knuthMorrisPrattStringMatch('test', null)).to.eql('Knuth-Morris-Pratt Match: The pattern must be a string.');
-    expect(knuthMorrisPrattStringMatch('test', {})).to.eql('Knuth-Morris-Pratt Match: The pattern must be a string.');
-    expect(knuthMorrisPrattStringMatch('test', true)).to.eql('Knuth-Morris-Pratt Match: The pattern must be a string.');
+    expect(knuthMorrisPrattStringMatch('test', 3)).to.eql('Knuth-Morris-Pratt String Match: The pattern must be a string.');
+    expect(knuthMorrisPrattStringMatch('test', ['test'])).to.eql('Knuth-Morris-Pratt String Match: The pattern must be a string.');
+    expect(knuthMorrisPrattStringMatch('test')).to.eql('Knuth-Morris-Pratt String Match: The pattern must be a string.');
+    expect(knuthMorrisPrattStringMatch('test', null)).to.eql('Knuth-Morris-Pratt String Match: The pattern must be a string.');
+    expect(knuthMorrisPrattStringMatch('test', {})).to.eql('Knuth-Morris-Pratt String Match: The pattern must be a string.');
+    expect(knuthMorrisPrattStringMatch('test', true)).to.eql('Knuth-Morris-Pratt String Match: The pattern must be a string.');
   });
 });
