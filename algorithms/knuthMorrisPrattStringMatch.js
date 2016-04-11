@@ -1,5 +1,5 @@
 /*
-  A JavaScript module which performs a Knuth-Morris-Pratt match to determine whether a given value exists within an input string.  If the specified value is found, the index of the value string inside the input string is returned.  If the specified value is not found in the input string -1 is returned.  Slightly modified from an existing JavaScript implementation.
+  A JavaScript module which performs a Knuth-Morris-Pratt string match to determine whether a given value exists within an input string.  If the specified value is found, the index of the value string inside the input string is returned.  If the specified value is not found in the input string -1 is returned.  Slightly modified from an existing JavaScript implementation.
   Citation: 2016. Nayuki.Io. https://www.nayuki.io/res/knuth-morris-pratt-string-matching/kmpstringmatcher.js.
 */
 module.exports = exports = function(input, pattern) {
