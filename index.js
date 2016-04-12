@@ -18,4 +18,6 @@ exports.longestCommonSubsequence = require(path.join('algorithms', 'longestCommo
 exports.levenshteinDistance = require(path.join('algorithms', 'levenshteinDistance'));
 exports.knuthMorrisPrattStringMatch = require(path.join('algorithms', 'knuthMorrisPrattStringMatch'));
 exports.rabinKarpStringMatch = require(path.join('algorithms', 'rabinKarpStringMatch'));
+exports.boyerMooreStringMatch = require(path.join('algorithms', 'boyerMooreStringMatch'));
+exports.boyerMooreHorspoolStringMatch = require(path.join('algorithms', 'boyerMooreHorspoolStringMatch'));
 module.exports = exports;

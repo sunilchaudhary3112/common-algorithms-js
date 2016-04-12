@@ -10,7 +10,7 @@ Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.
 * [Quick Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/quickSort.js)
 * [Binary Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/binarySearch.js)
 * [Insertion Sort](https://github.com/JHM90/common-algorithms/blob/master/algorithms/insertionSort.js)
-* [Durstenfeld Shuffle](https://github.com/JHM90/common-algorithms/blob/master/algorithms/durstenfeldShuffle.js)
+* [Durstenfeld (aka Knuth) Shuffle](https://github.com/JHM90/common-algorithms/blob/master/algorithms/durstenfeldShuffle.js)
 
 ###String
 * [Brute Force String Match](https://github.com/JHM90/common-algorithms/blob/master/algorithms/bruteForceStringMatch.js)
@@ -19,6 +19,8 @@ Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.
 * [Levenshtein Distance](https://github.com/JHM90/common-algorithms/blob/master/algorithms/levenshteinDistance.js)
 * [Knuth-Morris-Pratt String Match](https://github.com/JHM90/common-algorithms/blob/master/algorithms/knuthMorrisPrattStringMatch.js)
 * [Rabin-Karp String Match](https://github.com/JHM90/common-algorithms/blob/master/algorithms/rabinKarpStringMatch.js)
+* [Boyer-Moore String Match](https://github.com/JHM90/common-algorithms/blob/master/algorithms/boyerMooreStringMatch.js)
+* [Boyer-Moore-Horspool String Match](https://github.com/JHM90/common-algorithms/blob/master/algorithms/boyerMooreHorspoolStringMatch.js)
 
 ###Graph
 * [Depth First Search](https://github.com/JHM90/common-algorithms/blob/master/algorithms/depthFirstSearch.js)
