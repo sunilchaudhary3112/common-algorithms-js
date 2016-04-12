@@ -1,7 +1,7 @@
 const path = require('path');
 const boyerMooreHorspoolStringMatch = require(path.join(__dirname, '..', 'algorithms', 'boyerMooreHorspoolStringMatch.js'));
 const expect = require('chai').expect;
-describe('Boyer-Moore-Horspool String Match Algorithm: boyerMooreHorspoolStringMatch(input, pattern)', () => {
+describe('Boyer-Moore-Horspool String Match Algorithm: boyerMooreHorspoolStringMatch(input, pattern, alphabetSize)', () => {
   it('Should return the proper index value of the pattern in the input string when it exists in the input string.', () => {
     expect(boyerMooreHorspoolStringMatch('test', 'test', 256)).to.eql(0);
     expect(boyerMooreHorspoolStringMatch('test', 'est', 256)).to.eql(1);
