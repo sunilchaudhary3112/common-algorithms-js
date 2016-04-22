@@ -21,4 +21,5 @@ exports.rabinKarpStringMatch = require(path.join('algorithms', 'rabinKarpStringM
 exports.boyerMooreStringMatch = require(path.join('algorithms', 'boyerMooreStringMatch'));
 exports.boyerMooreHorspoolStringMatch = require(path.join('algorithms', 'boyerMooreHorspoolStringMatch'));
 exports.sorensonDiceCoefficient = require(path.join('algorithms', 'sorensonDiceCoefficient'));
+exports.bucketSort = require(path.join('algorithms', 'bucketSort'));
 module.exports = exports;
