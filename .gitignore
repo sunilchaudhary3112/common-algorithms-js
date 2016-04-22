@@ -1,2 +1,4 @@
 /.eslintrc
 **/node_modules/**
+/algorithms/damerauLevenshteinDistance.js
+/test/damerauLevenshteinDistanceTests.js
