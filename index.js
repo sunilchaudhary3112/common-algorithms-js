@@ -23,4 +23,5 @@ exports.boyerMooreHorspoolStringMatch = require(path.join('algorithms', 'boyerMo
 exports.sorensonDiceCoefficient = require(path.join('algorithms', 'sorensonDiceCoefficient'));
 exports.bucketSort = require(path.join('algorithms', 'bucketSort'));
 exports.shellSort = require(path.join('algorithms', 'shellSort'));
+exports.damerauLevenshteinDistance = require(path.join('algorithms', 'damerauLevenshteinDistance'));
 module.exports = exports;
