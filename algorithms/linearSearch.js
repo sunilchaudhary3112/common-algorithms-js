@@ -2,7 +2,6 @@
   A JavaScript module which performs a linear search for a given value inside an input array.  If the specified value is found, the index of the element in the array with that value is returned.  If the specified value is not found in the array -1 is returned.
 */
 module.exports = exports = function(input, value) {
-  if (!Array.isArray(input)) return 'Linear Search: The input must be an array.';
   if (typeof value === 'object') {
     value = JSON.stringify(value);
     for (var i = 0; i < input.length; i++) if (typeof input[i] === 'object') input[i] = JSON.stringify(input[i]);

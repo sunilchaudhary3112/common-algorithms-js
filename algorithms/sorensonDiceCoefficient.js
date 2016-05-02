@@ -3,7 +3,6 @@
   Citation: "Algorithm Implementation/Strings/Dice's coefficient - Wikibooks, Open Books For An Open World". 2016. En.Wikibooks.Org. https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Dice%27s_coefficient#Javascript.
 */
 module.exports = exports = function(s1, s2) {
-  if (typeof s1 !== 'string' || typeof s2 !== 'string') return 'Sorenson-Dice Coefficient: The input arguments must be strings.';
   if (s1.length < 1 || s2.length < 1) return 0;
   var intersection = 0;
   for (var i = 0; i < s1.length - 1; i++) {

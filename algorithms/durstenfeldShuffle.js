@@ -2,7 +2,6 @@
   A JavaScript module which performs a Durstenfeld shuffle on a given array.
 */
 module.exports = exports = function(input) {
-  if (!Array.isArray(input)) return 'Durstenfeld Shuffle: The input must be an array.';
   var index = input.length;
   while (0 !== index) {
     var shuffleIndex = Math.floor(Math.random() * index);

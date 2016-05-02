@@ -9,12 +9,4 @@ describe('Sorenson-Dice Coefficient Algorithm: sorensonDiceCoefficient(input1, i
     expect(sorensonDiceCoefficient('text', 'text')).to.eql(1);
     expect(sorensonDiceCoefficient('text', 'rext')).to.eql(0.6666666666666666);
   });
-  it('Should return an error message if either the input is not a string.', () => {
-    expect(sorensonDiceCoefficient(3, 'st')).to.eql('Sorenson-Dice Coefficient: The input arguments must be strings.');
-    expect(sorensonDiceCoefficient(['test'], 'st')).to.eql('Sorenson-Dice Coefficient: The input arguments must be strings.');
-    expect(sorensonDiceCoefficient(undefined, 'st')).to.eql('Sorenson-Dice Coefficient: The input arguments must be strings.');
-    expect(sorensonDiceCoefficient(null, 'st')).to.eql('Sorenson-Dice Coefficient: The input arguments must be strings.');
-    expect(sorensonDiceCoefficient({}, 'st')).to.eql('Sorenson-Dice Coefficient: The input arguments must be strings.');
-    expect(sorensonDiceCoefficient(true, 'st')).to.eql('Sorenson-Dice Coefficient: The input arguments must be strings.');
-  });
 });

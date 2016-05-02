@@ -13,20 +13,4 @@ describe('Boyer-Moore String Match Algorithm: boyerMooreStringMatch(input, patte
   it('Should return -1 when the given pattern is longer than the input string.', () => {
     expect(boyerMooreStringMatch('test', 'xyzsda')).to.eql(-1);
   });
-  it('Should return an error message if the input is not a string.', () => {
-    expect(boyerMooreStringMatch(3, 'st')).to.eql('Boyer-Moore String Match: The input must be a string.');
-    expect(boyerMooreStringMatch(['test'], 'st')).to.eql('Boyer-Moore String Match: The input must be a string.');
-    expect(boyerMooreStringMatch(undefined, 'st')).to.eql('Boyer-Moore String Match: The input must be a string.');
-    expect(boyerMooreStringMatch(null, 'st')).to.eql('Boyer-Moore String Match: The input must be a string.');
-    expect(boyerMooreStringMatch({}, 'st')).to.eql('Boyer-Moore String Match: The input must be a string.');
-    expect(boyerMooreStringMatch(true, 'st')).to.eql('Boyer-Moore String Match: The input must be a string.');
-  });
-  it('Should return an error message if the pattern is not a string.', () => {
-    expect(boyerMooreStringMatch('test', 3)).to.eql('Boyer-Moore String Match: The pattern must be a string.');
-    expect(boyerMooreStringMatch('test', ['test'])).to.eql('Boyer-Moore String Match: The pattern must be a string.');
-    expect(boyerMooreStringMatch('test')).to.eql('Boyer-Moore String Match: The pattern must be a string.');
-    expect(boyerMooreStringMatch('test', null)).to.eql('Boyer-Moore String Match: The pattern must be a string.');
-    expect(boyerMooreStringMatch('test', {})).to.eql('Boyer-Moore String Match: The pattern must be a string.');
-    expect(boyerMooreStringMatch('test', true)).to.eql('Boyer-Moore String Match: The pattern must be a string.');
-  });
 });

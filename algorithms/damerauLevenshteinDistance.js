@@ -3,7 +3,6 @@
   Citation: "Javascript Damerau Levenshtein Algorithim". 2016. David Hamp-Gonsalves. http://www.davidhampgonsalves.com/Damerau-Levenshtein/.
 */
 module.exports = exports = function damerauLevenshteinDistance(s1, s2) {
-  if (typeof s1 !== 'string' || typeof s2 !== 'string') return 'Damerau-Levenshtein Distance: The input arguments must be strings.';
   if (s1.length === 0) return s2.length;
   if (s2.length === 0) return s1.length;
   var matrix = [], sd = {}, combinedStrings = s1 + s2;

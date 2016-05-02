@@ -2,8 +2,6 @@
   A JavaScript module which performs a brute force string match for a given string pattern inside an input string.  If the specified value is found, the index of the pattern string inside the input string is returned.  If the specified pattern is not found in the input string -1 is returned.
 */
 module.exports = exports = function(input, pattern) {
-  if (typeof input !== 'string') return 'Brute Force String Match: The input must be a string.';
-  if (typeof pattern !== 'string') return 'Brute Force String Match: The pattern must be a string.';
   if (pattern.length > input.length) return -1;
   for (var i = 0; i < input.length; i++) {
     var index = i;

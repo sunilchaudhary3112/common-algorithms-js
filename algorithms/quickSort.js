@@ -2,8 +2,6 @@
   A JavaScript module which performs a quick sort on a given array of numbers, ordering the elements from lowest to highest.
 */
 module.exports = exports = function(input) {
-  if (!Array.isArray(input)) return 'Quick Sort: The input must be an array.';
-  for (var i = 0; i < input.length; i++) if (typeof input[i] !== 'number') return 'Quick Sort: The input must be an array consisting solely of numbers.';
   return quickSort(input);
 };
 function quickSort(input, first, last) {

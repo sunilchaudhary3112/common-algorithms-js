@@ -2,8 +2,6 @@
   A JavaScript module which performs a Boyer-Moore string match for a given string pattern inside an input string.  If the specified value is found, the index of the pattern string inside the input string is returned.  If the pattern is not found -1 is returned.
 */
 module.exports = exports = function(input, pattern) {
-  if (typeof input !== 'string') return 'Boyer-Moore String Match: The input must be a string.';
-  if (typeof pattern !== 'string') return 'Boyer-Moore String Match: The pattern must be a string.';
   if (pattern.length > input.length || pattern.length === 0) return -1;
   var characterTable = createCharacterTable(pattern), offsetTable = createOffsetTable(pattern);
   for (var i = pattern.length - 1; i < input.length;) {

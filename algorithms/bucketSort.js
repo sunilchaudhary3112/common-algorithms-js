@@ -5,9 +5,6 @@
   Citation: http://www.growingwiththeweb.com/2015/06/bucket-sort.html.
 */
 module.exports = exports = function(input, bucketSize) {
-  if (!Array.isArray(input)) return 'Bucket Sort: The input must be an array.';
-  for (var i = 0; i < input.length; i++) if (typeof input[i] !== 'number') return 'Bucket Sort: The input must be an array consisting solely of numbers.';
-  if (bucketSize < 1) return 'Bucket Sort: The bucket size must be greater than zero.';
   if (!input.length) return input;
   var min = input[0], max = input[0], output = [];
   for (var i = 1; i < input.length; i++) {

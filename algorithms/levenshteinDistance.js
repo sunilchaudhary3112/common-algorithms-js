@@ -3,7 +3,6 @@
   Citation: "Algorithm Implementation/Strings/Levenshtein Distance - Wikibooks, Open Books For An Open World". 2016. En.Wikibooks.Org. https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#JavaScript.
 */
 module.exports = exports = function(s1, s2) {
-  if (typeof s1 !== 'string' || typeof s2 !== 'string') return 'Levenshtein Distance: The input arguments must be strings.';
   if (s1.length === 0) return s2.length;
   if (s2.length === 0) return s1.length;
   var matrix = [];

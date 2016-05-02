@@ -3,8 +3,6 @@
   Citation: "Algorithm Implementation/Strings/Longest Common Subsequence - Wikibooks, Open Books For An Open World". 2016. En.Wikibooks.Org. https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Longest_common_subsequence#JavaScript.
 */
 module.exports = exports = function(s1, s2) {
-  if (typeof s1 !== 'string' || typeof s2 !== 'string') return 'Longest Common Subsequence: The input arguments must be strings.';
-  if (s1.length === 0 || s2.length === 0) return 'Longest Common Subsequence: Neither input string may be empty.';
   var c = [];
   for (var i = 0; i <= s1.length; i++) c.push([0]);
   for (var i = 0; i < s2.length; i++) c[0].push(0);

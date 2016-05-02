@@ -9,16 +9,4 @@ describe('Longest Common Subsequence Algorithm: longestCommonSubsequence(input1,
   it('Should return -1 when there are no common substrings in the input strings.', () => {
     expect(longestCommonSubsequence('test', 'xyz')).to.eql(-1);
   });
-  it('Should return an error message if either the input is not a string.', () => {
-    expect(longestCommonSubsequence(3, 'st')).to.eql('Longest Common Subsequence: The input arguments must be strings.');
-    expect(longestCommonSubsequence(['test'], 'st')).to.eql('Longest Common Subsequence: The input arguments must be strings.');
-    expect(longestCommonSubsequence(undefined, 'st')).to.eql('Longest Common Subsequence: The input arguments must be strings.');
-    expect(longestCommonSubsequence(null, 'st')).to.eql('Longest Common Subsequence: The input arguments must be strings.');
-    expect(longestCommonSubsequence({}, 'st')).to.eql('Longest Common Subsequence: The input arguments must be strings.');
-    expect(longestCommonSubsequence(true, 'st')).to.eql('Longest Common Subsequence: The input arguments must be strings.');
-  });
-  it('Should return an error message if either input string is empty.', () => {
-    expect(longestCommonSubsequence('test', '')).to.eql('Longest Common Subsequence: Neither input string may be empty.');
-    expect(longestCommonSubsequence('', 'test')).to.eql('Longest Common Subsequence: Neither input string may be empty.');
-  });
 });

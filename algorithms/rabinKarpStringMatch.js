@@ -1,10 +1,7 @@
 /*
-  A JavaScript module which performs a Rabin-Karp string match to determine whether a given value exists within an input string.  If the specified value is found, the index of the value string inside the input string is returned.  If the specified value is not found in the input string -1 is returned.  The third argument accepts a boolean value which determines whether or not a Las Vegas check is additionally performed on matching input section and pattern strings.  If that argument is false a Monte Carlo check is performed.  In plain english, that means if the check argument is true the characters of the input between the offset index and the offset index plus the pattern length and the pattern characters are checked for congruency one by one and if they're aren't all the same false is returned.  If check is false, no additional check is performed.  This is option was added to improve accuracy due to the unlikely case of two different input strings recieving the same hash value.
+  A JavaScript module which performs a Rabin-Karp string match to determine whether a given value exists within an input string.  If the specified value is found, the index of the value string inside the input string is returned.  If the specified value is not found in the input string -1 is returned.  The third argument accepts a boolean value which determines whether or not a Las Vegas check is additionally performed on matching input section and pattern strings.  If that argument is false a Monte Carlo check is performed.
 */
 module.exports = exports = function(input, pattern, check) {
-  if (typeof input !== 'string') return 'Rabin-Karp String Match: The input must be a string.';
-  if (typeof pattern !== 'string') return 'Rabin-Karp String Match: The pattern must be a string.';
-  if (typeof check !== 'boolean') return 'Rabin-Karp String Match: The check must be a boolean.';
   if (input.length < pattern.length) return -1;
   var prime = 2147483647, radix = 1024, rm = 1, patternHash = hashString(pattern, pattern.length, radix, prime), inputHash = hashString(input, pattern.length, radix, prime);
   if (patternHash === inputHash && doubleCheck(input, pattern, 0, check)) return 0;

@@ -14,12 +14,4 @@ describe('Linear Search Algorithm: linearSearch(input, value)', () => {
   it('Should return -1 when the given value does not exist inside an element of the input array.', () => {
     expect(linearSearch([10, 9], 8)).to.eql(-1);
   });
-  it('Should return an error message if the input is not an array.', () => {
-    expect(linearSearch(3)).to.eql('Linear Search: The input must be an array.');
-    expect(linearSearch('test')).to.eql('Linear Search: The input must be an array.');
-    expect(linearSearch()).to.eql('Linear Search: The input must be an array.');
-    expect(linearSearch(null)).to.eql('Linear Search: The input must be an array.');
-    expect(linearSearch({})).to.eql('Linear Search: The input must be an array.');
-    expect(linearSearch(true)).to.eql('Linear Search: The input must be an array.');
-  });
 });

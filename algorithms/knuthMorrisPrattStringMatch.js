@@ -5,8 +5,6 @@
   Citation: https://www.nayuki.io/page/knuth-morris-pratt-string-matching.
 */
 module.exports = exports = function(input, pattern) {
-  if (typeof input !== 'string') return 'Knuth-Morris-Pratt String Match: The input must be a string.';
-  if (typeof pattern !== 'string') return 'Knuth-Morris-Pratt String Match: The pattern must be a string.';
   if (pattern.length > input.length || pattern.length === 0) return -1;
   var longestSuffixPrefix = [0];
   for (var i = 1; i < pattern.length; i++) {
