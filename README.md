@@ -3,32 +3,32 @@
 Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.org/)/[Chai](http://chaijs.com/) testing.
 
 ###Array
-* [Selection Sort](https://github.com/sumtype/common-algorithms/blob/master/algorithms/selectionSort.js)
-* [Bubble Sort](https://github.com/sumtype/common-algorithms/blob/master/algorithms/bubbleSort.js)
-* [Linear Search](https://github.com/sumtype/common-algorithms/blob/master/algorithms/linearSearch.js)
-* [Merge Sort](https://github.com/sumtype/common-algorithms/blob/master/algorithms/mergeSort.js)
-* [Quick Sort](https://github.com/sumtype/common-algorithms/blob/master/algorithms/quickSort.js)
-* [Binary Search](https://github.com/sumtype/common-algorithms/blob/master/algorithms/binarySearch.js)
-* [Insertion Sort](https://github.com/sumtype/common-algorithms/blob/master/algorithms/insertionSort.js)
-* [Bucket Sort](https://github.com/sumtype/common-algorithms/blob/master/algorithms/bucketSort.js)
-* [Shell Sort](https://github.com/sumtype/common-algorithms/blob/master/algorithms/shellSort.js)
-* [Durstenfeld Shuffle (a.k.a. Knuth Shuffle)](https://github.com/sumtype/common-algorithms/blob/master/algorithms/durstenfeldShuffle.js)
+* [Selection Sort](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/selectionSort.js)
+* [Bubble Sort](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/bubbleSort.js)
+* [Linear Search](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/linearSearch.js)
+* [Merge Sort](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/mergeSort.js)
+* [Quick Sort](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/quickSort.js)
+* [Binary Search](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/binarySearch.js)
+* [Insertion Sort](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/insertionSort.js)
+* [Bucket Sort](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/bucketSort.js)
+* [Shell Sort](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/shellSort.js)
+* [Durstenfeld Shuffle (a.k.a. Knuth Shuffle)](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/durstenfeldShuffle.js)
 
 ###String
-* [Brute Force String Match](https://github.com/sumtype/common-algorithms/blob/master/algorithms/bruteForceStringMatch.js)
-* [Longest Common Substring](https://github.com/sumtype/common-algorithms/blob/master/algorithms/longestCommonSubstring.js)
-* [Longest Common Subsequence](https://github.com/sumtype/common-algorithms/blob/master/algorithms/longestCommonSubsequence.js)
-* [Levenshtein Distance](https://github.com/sumtype/common-algorithms/blob/master/algorithms/levenshteinDistance.js)
-* [Damerau-Levenshtein Distance](https://github.com/sumtype/common-algorithms/blob/master/algorithms/damerauLevenshteinDistance.js)
-* [Sørensen-Dice Coefficient](https://github.com/sumtype/common-algorithms/blob/master/algorithms/sorensonDiceCoefficient.js)
-* [Knuth-Morris-Pratt String Match](https://github.com/sumtype/common-algorithms/blob/master/algorithms/knuthMorrisPrattStringMatch.js)
-* [Rabin-Karp String Match](https://github.com/sumtype/common-algorithms/blob/master/algorithms/rabinKarpStringMatch.js)
-* [Boyer-Moore String Match](https://github.com/sumtype/common-algorithms/blob/master/algorithms/boyerMooreStringMatch.js)
-* [Boyer-Moore-Horspool String Match](https://github.com/sumtype/common-algorithms/blob/master/algorithms/boyerMooreHorspoolStringMatch.js)
+* [Brute Force String Match](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/bruteForceStringMatch.js)
+* [Longest Common Substring](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/longestCommonSubstring.js)
+* [Longest Common Subsequence](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/longestCommonSubsequence.js)
+* [Levenshtein Distance](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/levenshteinDistance.js)
+* [Damerau-Levenshtein Distance](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/damerauLevenshteinDistance.js)
+* [Sørensen-Dice Coefficient](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/sorensonDiceCoefficient.js)
+* [Knuth-Morris-Pratt String Match](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/knuthMorrisPrattStringMatch.js)
+* [Rabin-Karp String Match](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/rabinKarpStringMatch.js)
+* [Boyer-Moore String Match](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/boyerMooreStringMatch.js)
+* [Boyer-Moore-Horspool String Match](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/boyerMooreHorspoolStringMatch.js)
 
 ###Graph
-* [Depth First Search](https://github.com/sumtype/common-algorithms/blob/master/algorithms/depthFirstSearch.js)
-* [Breadth First Search](https://github.com/sumtype/common-algorithms/blob/master/algorithms/breadthFirstSearch.js)
+* [Depth First Search](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/depthFirstSearch.js)
+* [Breadth First Search](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/breadthFirstSearch.js)
 
 ##Testing
 
