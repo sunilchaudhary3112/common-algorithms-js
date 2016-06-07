@@ -25,4 +25,5 @@ exports.bucketSort = require(path.join('algorithms', 'bucketSort'));
 exports.shellSort = require(path.join('algorithms', 'shellSort'));
 exports.damerauLevenshteinDistance = require(path.join('algorithms', 'damerauLevenshteinDistance'));
 exports.countingSort = require(path.join('algorithms', 'countingSort'));
+exports.gnomeSort = require(path.join('algorithms', 'gnomeSort'));
 module.exports = exports;
