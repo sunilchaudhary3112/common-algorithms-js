@@ -24,4 +24,5 @@ exports.sorensonDiceCoefficient = require(path.join('algorithms', 'sorensonDiceC
 exports.bucketSort = require(path.join('algorithms', 'bucketSort'));
 exports.shellSort = require(path.join('algorithms', 'shellSort'));
 exports.damerauLevenshteinDistance = require(path.join('algorithms', 'damerauLevenshteinDistance'));
+exports.countingSort = require(path.join('algorithms', 'countingSort'));
 module.exports = exports;

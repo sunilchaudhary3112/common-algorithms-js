@@ -12,6 +12,7 @@ Commonly used algorithms implemented in JavaScript with [Mocha](https://mochajs.
 * [Insertion Sort](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/insertionSort.js)
 * [Bucket Sort](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/bucketSort.js)
 * [Shell Sort](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/shellSort.js)
+* [Counting Sort](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/countingSort.js)
 * [Durstenfeld Shuffle (a.k.a. Knuth Shuffle)](https://github.com/sumtype/common-algorithms-js/blob/master/algorithms/durstenfeldShuffle.js)
 
 ###String
