@@ -50,4 +50,4 @@ Once all the dependencies are installed you'll be ready to run the tests.  Enter
 
 `npm test`
 
-This repository uses [Travis-CI](https://travis-ci.org/sumtype/common-algorithms-js) for deployment testing on Node.js versions 5.1x and 4.2x.
+This repository uses [Travis-CI](https://travis-ci.org/sumtype/common-algorithms-js) for deployment testing on Node.js versions 6.9x and 7.2x.
