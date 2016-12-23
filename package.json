@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JHM90/common-algorithms.git"
+    "url": "git+https://github.com/sumtype/common-algorithms.git"
   },
   "keywords": [
     "common algorithms",
@@ -18,9 +18,9 @@
   "author": "James Mason <jm@netarts.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JHM90/common-algorithms/issues"
+    "url": "https://github.com/sumtype/common-algorithms/issues"
   },
-  "homepage": "https://github.com/JHM90/common-algorithms#readme",
+  "homepage": "https://github.com/sumtype/common-algorithms#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"

@@ -1,2 +1,4 @@
+.npmignore
 /.eslintrc
 **/node_modules/**
+*.log
